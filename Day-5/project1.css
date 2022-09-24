@@ -1,0 +1,63 @@
+nav{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+select,input,#add{
+    background-color: black;
+    color: white;
+}
+
+#flexContainer{
+    display: flex;
+    
+
+}
+
+#C1{
+    background-color: lightcoral;
+    height:600px;
+    flex: 1;
+    
+}
+
+#C2{
+    background-color:lightgoldenrodyellow;
+    flex: 1;
+    height:600px;
+    display: flex;
+flex-direction: column;
+
+}
+
+#C3{
+    background-color: lightpink;
+    flex: 1;
+    height:600px;
+
+
+}
+
+#income{
+    background-color:blue;
+    flex: 1;
+    height:100px;
+    display: flex;
+}
+
+#moneyLeft{
+    background-color:green;
+    flex: 1;
+    height:100px;
+    display: flex;
+}
+
+#expense{
+    background-color:red;
+    flex: 1;
+    height:100px;
+    display: flex;
+}
