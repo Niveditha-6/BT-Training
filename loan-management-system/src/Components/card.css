@@ -1,0 +1,131 @@
+.cardContainer{
+    background-color: #d0efff;
+    color: #03254c;
+    width: 600px;
+    height: 280px;
+    margin: 0 auto;
+    box-shadow: 5px 10px whitesmoke  ;
+    margin-bottom: 15px;
+}
+
+.biggerCardContainer{
+    background-color: #d0efff;
+    color: #03254c;
+    width: 860px;
+    height: 250px;
+    margin: 0 auto;
+    box-shadow: 5px 10px whitesmoke  ;
+    margin-bottom: 15px;
+}
+
+.cardFlex{
+    display: flex;
+}
+
+.cardFlex div{
+    flex: 1;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.applyButton{
+    height: 40px;
+    width: 200px;
+    background-color: #03254c;
+    color: white;
+    border-radius: 20px;
+    margin-right: 150px;
+}
+
+.PendingApprove {
+    height: 40px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.PendingReject {
+    height: 40px;
+    width: 200px;
+    background-color: rgb(155, 23, 23);
+    color: white;
+    border-radius: 20px;
+    flex: 1;
+    margin-left: 10px;
+
+
+}
+
+.buttonsConatiner{
+    display: flex;
+}
+
+
+.cardContainer button:hover{
+    font-size: large;
+}
+
+.cardFirstflex img{
+height: 100px;
+width: 120px;
+border: #03254c 1px solid;
+}
+
+.cardSecondflex li {
+    margin-top: 5px;
+}
+
+.cardThirdflex li {
+    margin-top: 5px;
+
+}
+
+.biggerFirstflex{
+    flex: 0  !important ;
+    margin-top: 50px !important ;
+
+}
+.biggerSecondflex{
+flex: 2;
+}
+
+.biggerThirdFlex{
+    flex: 2;
+    }
+
+.green{
+    background-color: green;
+    color: white;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    pointer-events:none;
+}
+
+ .red{
+    background-color: rgb(155, 23, 23);
+    color: white;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    pointer-events:none;
+  
+}
+
+.yellow{
+    background-color: orange;
+    color: white;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    pointer-events:none;
+  
+}
+
+.bigConatainer{
+    width: 100%;
+    margin:0;
+}

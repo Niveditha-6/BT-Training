@@ -1,0 +1,58 @@
+.applyformContainer{
+
+    width: 650px;
+    height: 650px;
+    margin: 0  auto;
+    background-color:#03254c;
+    margin-top: 80px;
+
+
+}
+
+.applyformContainer input,button{
+    width: 300px;
+    /* margin: 10px 0 10px 160px; */
+    height: 25px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+   
+    
+    
+}
+
+
+.applyformParent{
+    width: 100%;
+    height: 100vh;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.applyFormText{
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.rate{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formLists{
+    color: white;
+}
+
+.submitButton{
+    background-color: #d0efff;
+    color: #03254c;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 150px;
+}
+

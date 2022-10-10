@@ -1,0 +1,52 @@
+.loginContainer{
+
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    margin: 0  auto;
+    background-color:#03254c;
+    margin-top: 150px;
+
+
+}
+
+.loginContainer input,button{
+    width: 300px;
+    margin: 10px 0 10px 160px;
+    height: 30px;
+    background-color: #d0efff;
+    
+    
+}
+
+.loginParent{
+    width: 100%;
+    height: 100vh;
+}
+
+.loginContainer h1{
+  color:  #d0efff;
+
+}
+
+.loginContainer button{
+    height: 40px;
+    width: 200px;
+    background-color:#d0efff;
+    color:  #03254c;
+    border-radius: 20px;
+    margin: 20px 0 0 200px;
+   
+
+    
+}
+
+.loginContainer button:hover{
+
+    background-color: #03254c;
+    color: white;
+    font-size: large;
+    
+    
+}

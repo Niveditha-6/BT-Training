@@ -1,0 +1,32 @@
+.navContainer{
+    background-color:#03254c;
+    border: 0.5px solid lightskyblue;
+    border-radius: 10px;
+    display: flex;
+    height: 80px;
+   align-items: center;
+}
+
+.navSub{
+    display: flex;
+    gap:20px;
+}
+
+.navSub:last-of-type {
+    margin-left: auto;
+  }
+
+
+  .navLink{
+    text-decoration: none;
+    color: white;
+  }
+
+  .navLink:hover{
+    font-size: large;
+  }
+
+  img{
+    height: 60px;
+    width: 60px;
+  }
